@@ -7,8 +7,8 @@ from a mnemonic according to the BIP32 spec
 import hmac
 from hashlib import sha512
 from io import BytesIO
-from ecc import S256Point, N, G
-from bip32_helper import (
+from .ecc import S256Point, N, G
+from .bip32_helper import (
     get_pubkey_sec,
     decode_base58,
     encode_base58_checksum,

@@ -1,7 +1,7 @@
 """This module contains BIP39 helper functions"""
 
 import hashlib
-from ecc import PrivateKey
+from .ecc import PrivateKey
 
 BASE58_ALPHABET = '123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz'
 

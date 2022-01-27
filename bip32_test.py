@@ -1,9 +1,9 @@
 import pytest
-from bip32_helper import (
+from .bip32_helper import (
     get_seed,
     get_pubkey_sec,
 )
-from bip32 import Xkey
+from .bip32 import Xkey
 
 MNEMONIC_FILENAME = "mnemonic_words.test"
 ROOT_XPRV = "xprv9s21ZrQH143K3eWTAaVhmX3pjg5dy3qQvj5yMk63Gtnt52kunpXjB2JK3NC55eYgHKuCbp93qUPjo5iHVvdEZAWxUo5PvaH8vCxBBT5aTiN"
